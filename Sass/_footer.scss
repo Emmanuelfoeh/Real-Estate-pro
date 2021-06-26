@@ -1,0 +1,26 @@
+.foot {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.quic {
+  display: flex;
+  flex-direction: column;
+}
+
+.sub {
+  width: 70%;
+}
+
+@media screen and(max-width:600px) {
+  .foot {
+    flex-direction: column;
+    background-color: rgb(141, 197, 192);
+  }
+  .sub {
+    width: 30%;
+  }
+}

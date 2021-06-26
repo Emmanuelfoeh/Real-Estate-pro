@@ -1,0 +1,19 @@
+.display {
+  margin: 4rem auto !important;
+}
+
+.display-item {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 1rem;
+  row-gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  background: rgb(199, 200, 191);
+}
+
+@media (max-width: 600px) {
+  .display-item {
+    grid-template-columns: 1fr;
+  }
+}
